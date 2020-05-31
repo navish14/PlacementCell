@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.main-nav{
+	float:right;
+	list-style:none;
+	margin-top:60px;
+
+
+}
+
+.main-nav li{
+  float: left;
+	display:block;
+	margin-left:20px;
+  margin-right:10px;
+  position: relative;
+
+}
+
+.main-nav li a{
+	color:white;
+	text-decoration:none;
+	font-size:100%;
+	font-weight:bold;
+  font-family: "Montserrat",sans-serif;
+}
+.main-nav li a:hover{
+	color: orange;
+	border-bottom:2px solid orange;
+	padding:15px 0;
+	transition:all .5s ease-in;
+
+}
+
+
+/*
+dropdown menu
+*/
+
+.main-nav li:hover ul {
+  display: block;
+  width: 160px;
+}
+.main-nav li ul{
+  display: none;
+  position: absolute;
+  border: 2px solid orange;
+  border-top: none;
+  border-radius: 0px 0px 8px 8px;
+  z-index: 1;
+  margin-top: 10px;
+}
+.main-nav li ul li a:hover{
+  border: none;
+
+}
+.main-nav li ul li {
+  width: 200px;
+  padding: 6px 0px;
+  float: left;
+
+}
+
+.logo img{
+	height:60px;
+	float:left;
+	margin-top:15px;
+  margin-left: 20px;
+  cursor: pointer;
+}

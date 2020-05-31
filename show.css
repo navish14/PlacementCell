@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: url(img/satya1.png);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+#headtext{
+  display: inline-block;
+  text-transform: uppercase;
+  color: grey;
+  border-bottom: 1px solid orange;
+}
+#stHead{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: orange;
+}
+.table1{
+  margin:10px;
+  padding: 20px;
+  border: 5px solid grey;
+  width: auto;
+  height: auto;
+  color: orange;
+}
+.table1 th{
+  font-size: 20px;
+  border: 3px solid grey;
+  padding: 5px;
+}
+.table1 td{
+  border: 3px solid grey;
+  font-size: 20px;
+}
+
+
+.form1{
+  margin-bottom: 20px;
+}
+.logout{
+  float: right;
+  font-size: 20px;
+  margin:10px;
+}
+.btn{
+  width: 120px;
+  height: 40px;
+
+}

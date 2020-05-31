@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(img/satya1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: new time roman;
+}
+h1 {
+  font-size: 45px;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.main-nav{
+	float:right;
+	list-style:none;
+	margin-top:60px;
+
+}
+
+.input-group{
+  margin-top: 20px;
+
+}
+.input-group-addon{
+  background: transparent;
+  border-radius: 0px;
+  border: 0px;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+  color: gray;
+}
+.form-control{
+  background: transparent;
+  border-radius: 0px;
+  border: 0px;
+  border-bottom: 1px solid gray;
+  font-size: 22px;
+  height: 40px;
+  padding: 19px;
+  color: gray;
+}
+input[type="checkbox"]{
+  margin-top: 20px;
+  height: 15px;
+  width: 15px;
+}
+small{
+  font-size: 18px;
+  color: white;
+  margin-left: 8px;
+}
+p{
+  margin-top: 20px;
+  font-size: 19px;
+  color: white;
+}
+.btn-danger{
+  margin-top: 20px;
+  width: 560px;
+  font-size: 18px;
+
+}
+
+h5{
+  font-size: 33px;
+  background: #ff3366;
+  width: 65px;
+  border-radius: 100px;
+  padding: 10px;
+  margin-left: 260px;
+  margin-top: 40px;
+}
+.btn-primary{
+  margin-top: 56px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 19px;
+  width: 210px;
+  background-color: green;
+  border: 1px solid black;
+}
+.btn-info{
+  margin-top: 56px;
+  margin-left: 30px;
+  font-size: 19px;
+  width: 210px;
+  margin-bottom: 20px;
+  background-color: green;
+  border: 1px solid black;
+}

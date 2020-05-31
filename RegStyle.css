@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(img/satya1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: new time roman;
+}
+h1{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: white;
+  margin-left: 50px;
+  font-size: 55px;
+}
+.main-nav{
+	float:right;
+	list-style:none;
+	margin-top:60px;
+
+}
+
+.main-nav li{
+	display:inline-block;
+	margin-left:20px;
+  margin-right:10px;
+}
+.main-nav li a{
+	color:white;
+	text-decoration:none;
+	font-size:94%;
+	font-weight:bold;
+}
+.main-nav li a:hover{
+	color: red;
+	border-bottom:2px solid gray;
+	padding:15px 0;
+	transition:all .5s ease-in;
+
+}
+.logo img{
+	height:100px;
+	float:left;
+	margin-top:20px;
+}
+
+.label{
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+.form-control{
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 0px;
+  border: 0px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  height: 40px;
+}
+.select{
+  cursor: pointer;
+}
+.btn{
+  margin-top: 20px;
+	padding:10px 30px;
+  background-color: grey;
+	margin-right:15px;
+	border-radius:12px;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.radio-inline{
+  margin-top: 20px;
+  font-size: 20px;
+  padding-right: 10px;
+
+}

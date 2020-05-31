@@ -1,0 +1,19 @@
+/*--------------------
+5. Footer
+--------------------*/
+
+footer {
+
+  padding: 20px;
+  background-color: #000;
+
+}
+footer a{
+  color:orange;
+  font-size: 15px;
+  text-decoration: none;
+}
+h4{
+  color: white;
+  font-size: 18px;
+}
